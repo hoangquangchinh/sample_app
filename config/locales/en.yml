@@ -6,8 +6,7 @@ en:
       vietnamese: "Vietnamese"
   static_pages:
     home:
-      title: "Home"
-      h1_title: "Sample App"
+      title: "Sample App"
       home_html: "This is the home page for the %{href} sample application."
       home_desc: "Ruby on Rails tutorial"
     help:
@@ -30,7 +29,7 @@ en:
         family of tutorials, is a %{book_href}" and %{screencast_href}"
         to teach web development with %{rails_href}.
         This is the sample app for the tutorial.
-      home_desc: "Ruby on Rails Tutorial"
+      home_desc: "Ruby on  Rails Tutorial"
       learn_enough_desc: "Learn Enough"
       book_desc: "book"
       screencast_desc: "screencast series"
