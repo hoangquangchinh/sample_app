@@ -1,0 +1,10 @@
+<% provide :title, t(".title") %>
+<h1><%= t ".title" %></h1>
+<p>
+  <%= t ".about_html",
+  home_href: link_to(t(".home_desc"), Settings.link.home),
+  learn_enough_href: link_to(t(".learn_enough_desc"), Settings.link.learn_enough),
+  book_href: link_to(t(".book_desc"), Settings.link.book),
+  screencast_href: link_to(t(".screencast_desc"), Settings.link.screencast),
+  rails_href: link_to(t(".rails_desc"), Settings.link.rails) %>
+</p>  
