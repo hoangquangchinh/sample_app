@@ -9,6 +9,7 @@ gem "rails", "~> 6.0.3", ">= 6.0.3.2"
 gem "sass-rails", ">= 6"
 gem "sqlite3", "~> 1.4"
 
+gem "config"
 gem "turbolinks", "~> 5"
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "webpacker", "~> 4.0"

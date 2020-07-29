@@ -1,4 +1,36 @@
 vi:
-  articles:
-    cc:
-      welcome: <h1>Chào mừng!</h1>
+  layouts:
+    application:
+      title: "Ứng dụng ví dụ về Ruby on Rails"
+      english: "Tiếng Anh"
+      vietnamese: "Tiếng Việt"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      h1_title: "Ứng dụng ví dụ"
+      home_html: "Đây là trang chủ của ứng dụng ví dụ về %{href}."
+      home_desc: "Ruby on Rails"
+    help:
+      title: "Trợ giúp"
+      help_html:
+        "Xem trợ giúp về khóa học Ruby on Rails tại link %{help_href}.
+        Để xem trợ giúp về ứng dụng mẫu này, xem %{book_href}."
+      help_desc: "Trang trợ giúp khóa học Rails"
+      book_desc: "Sách trợ giúp khóa học Rails"
+    contact:
+      title: "Liên hệ"
+      contact_content: |
+        Liên hệ với khóa học Rails về ứng dụng mẫu này 
+        tại %{contact_href}.
+      contact_desc: "contact page"
+    about:
+      title: "Giới thiệu"
+      about_html: |
+        %{home_href} (một phần của chuỗi các khóa học của %{learn_enough_href}")
+        là một %{book_href} và %{screencast_href} hướng dẫn lập trình web 
+        sử dụng %{rails_href}. Đây là ứng dụng ví dụ của khóa học này.
+      home_desc: "Khóa học Ruby on Rails"
+      learn_enough_desc: "Learn Enough"
+      book_desc: "Cuốn sách"
+      screencast_desc: "screencast series"
+      rails_desc: "Ruby on Rails"
