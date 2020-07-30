@@ -1,12 +1,29 @@
 en:
+  users:
+    new:
+      sign_up: "Sign up"
+      desc: "This will be a signup page for new users."
   layouts:
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      footer_html: "The %{about_href} by %{michaelhartl_href}"
+      home_desc: "Ruby on Rails Tutorial"
+      .link: "Michael Hartl"
+    header:
+      sample: "Sample App"
+      home: "Home"
+      help: "Help"
+      log_in: "Log in"
     application:
       title: "Ruby on Rails Tutorial Sample App"
       english: "English"
       vietnamese: "Vietnamese"
   static_pages:
     home:
-      title: "Sample App"
+      welcome: "Welcome to the Sample App"
+      sign_up: "Sign up now!"
       home_html: "This is the home page for the %{href} sample application."
       home_desc: "Ruby on Rails tutorial"
     help:

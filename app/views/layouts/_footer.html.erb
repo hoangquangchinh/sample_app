@@ -1,0 +1,14 @@
+<footer class="footer">
+  <small>
+    <%= t (".footer_html"), 
+    about_href: link_to(t(".home_desc"), Settings.link.home), 
+    michaelhartl_href: link_to(t(".link"), Settings.link.michaelhartl) %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about"), "#" %></li>
+      <li><%= link_to t(".contact"), "#" %></li>
+      <li><%= link_to t(".news"), Settings.link.home %></li>
+    </ul>
+  </nav>
+</footer>

@@ -1,4 +1,8 @@
-<h1><%= t ".title" %></h1>
-<p>
-  <%= t ".home_html", href: link_to(t(".home_desc"), Settings.link.home) %>
-</p>
+<div class="center jumbotron">
+  <h1><%=t ".welcome" %></h1>
+  <h2>
+    <%= t ".home_html", href: link_to(t(".home_desc"), Settings.link.home) %>
+  </h2>
+  <%= link_to t(".sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: Settings.image.rails.width), Settings.link.rails %>
