@@ -1,12 +1,29 @@
 vi:
+  users:
+    new:
+      sign_up: "Đăng ký"
+      desc: "Đây sẽ là trang đăng ký cho người dùng mới."
   layouts:
+    footer:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      footer_html: "Một %{about_href} bởi %{michaelhartl_href}"
+      home_desc: "Khóa học Ruby on Rails"
+      link: "Michael Hartl"
+    header:
+      sample: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      log_in: "Đăng nhập"
     application:
       title: "Ứng dụng ví dụ về Ruby on Rails"
       english: "Tiếng Anh"
       vietnamese: "Tiếng Việt"
   static_pages:
     home:
-      title: "Ứng dụng ví dụ"
+      welcome: "Chào mừng đến với Sample app"
+      sign_up: "Đăng ký ngay"
       home_html: "Đây là trang chủ của ứng dụng ví dụ về %{href}."
       home_desc: "Ruby on Rails"
     help:
