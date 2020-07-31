@@ -10,3 +10,9 @@ link:
 image:
   rails:
     width: "200px"
+validate:
+  user:
+    name_maxlength: 50
+    email_maxlength: 255
+    email_format: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+    password_minlength: 6
