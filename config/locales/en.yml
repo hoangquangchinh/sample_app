@@ -1,6 +1,12 @@
 en:
   users:
     new:
+      flash_success: "Welcome to the Sample App!"
+      name: "name"
+      email: "email"
+      password: "password"
+      confirmation: "confirmation"
+      create: "Create my account"
       sign_up: "Sign up"
       desc: "This will be a signup page for new users."
   layouts:
@@ -51,3 +57,7 @@ en:
       book_desc: "book"
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
+  shared:
+    error_messages:
+      alert: "The form contains"
+      error: "error"      

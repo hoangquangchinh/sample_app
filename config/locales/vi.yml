@@ -1,6 +1,12 @@
 vi:
   users:
     new:
+      flash_success: "Chào mừng đến với Ứng dụng mẫu!"
+      name: "tên"
+      email: "email"
+      password: "mật khẩu"
+      confirmation: "xác nhận"
+      create: "Tạo tài khoản"
       sign_up: "Đăng ký"
       desc: "Đây sẽ là trang đăng ký cho người dùng mới."
   layouts:
@@ -50,3 +56,8 @@ vi:
       book_desc: "Cuốn sách"
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
+  shared:
+    error_messages:
+      alert: "Biểu mẫu có chứa"
+      error: "Lỗi"      
+
