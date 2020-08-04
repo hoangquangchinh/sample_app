@@ -547,6 +547,10 @@ Rails/HasAndBelongsToMany:
   Include:
     - app/models/**/*.rb
 
+Rails/HelperInstanceVariable:
+  Exclude:
+    - app/helpers/sessions_helper.rb   
+
 Rails/ReadWriteAttribute:
   Include:
     - app/models/**/*.rb

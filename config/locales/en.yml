@@ -21,7 +21,12 @@ en:
       sample: "Sample App"
       home: "Home"
       help: "Help"
-      log_in: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      login: "Log in"
     application:
       title: "Ruby on Rails Tutorial Sample App"
       english: "English"
@@ -60,4 +65,13 @@ en:
   shared:
     error_messages:
       alert: "The form contains"
-      error: "error"      
+      error: "error"
+  sessions:
+    new:
+      title: "Log in"
+      password: "Password"
+      submit: "Log in"
+      sign_up: "Sign up now!"
+      new_user: "New user?"
+    create:
+      flash_danger: "Invalid email/password combination"
