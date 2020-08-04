@@ -21,7 +21,12 @@ vi:
       sample: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Trợ giúp"
-      log_in: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      login: "Đăng nhập"
     application:
       title: "Ứng dụng ví dụ về Ruby on Rails"
       english: "Tiếng Anh"
@@ -59,5 +64,13 @@ vi:
   shared:
     error_messages:
       alert: "Biểu mẫu có chứa"
-      error: "Lỗi"      
-
+      error: "Lỗi"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      password: "Mật khẩu"
+      submit: "Đăng nhập"
+      sign_up: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+    create:
+      flash_danger: "Mật khẩu hoặc email không hợp lệ."
