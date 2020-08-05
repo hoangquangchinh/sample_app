@@ -72,5 +72,6 @@ vi:
       submit: "Đăng nhập"
       sign_up: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
+      remember_me: "Nhớ phiên đăng nhập của tôi"
     create:
       flash_danger: "Mật khẩu hoặc email không hợp lệ."

@@ -559,6 +559,10 @@ Rails/ScopeArgs:
   Include:
     - app/models/**/*.rb
 
+Rails/SkipsModelValidations:
+  Exclude:
+    - app/models/user.rb
+        
 Rails/Validation:
   Include:
     - app/models/**/*.rb

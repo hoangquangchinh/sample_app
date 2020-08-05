@@ -17,3 +17,5 @@ validate:
     email_maxlength: 255
     email_format: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
     password_minlength: 6
+form:
+  check_box: "1"
