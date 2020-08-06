@@ -3,15 +3,11 @@ class SessionsController < ApplicationController
 
   def create
     user = User.find_by email: params[:session][:email].downcase
+    authenticate user
+  end
 
-    if user&.authenticate(params[:session][:password])
-      log_in user
-      remember_or_forget user
-      redirect_back_or user
-    else
-      flash.now[:danger] = t ".flash_danger"
-      render :new
-    end
+  def remember_me user
+    params[:session][:remember_me] == Settings.form.check_box ? remember(user) : forget(user)
   end
 
   def destroy
@@ -25,6 +21,22 @@ class SessionsController < ApplicationController
       remember user
     else
       forget user
+    end
+  end
+
+  def authenticate user
+    if user&.authenticate params[:session][:password]
+      if user.activated?
+        log_in user
+        remember_me user
+        redirect_back_or user
+      else
+        flash[:warning] = t ".warning_msg"
+        redirect_to root_url
+      end
+    else
+      flash.now[:danger] = t ".flash_danger"
+      render :new
     end
   end
 end
