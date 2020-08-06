@@ -5,10 +5,15 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @users = User.is_activated.page(params[:page]).per Settings.pagination.per_page
+    @users = User.page(params[:page]).per Settings.pagination.per_page
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.page(params[:page]).per Settings.pagination.per_page
+    return if @user.activated?
+
+    redirect_to root_url
+  end
 
   def new
     @user = User.new
@@ -52,14 +57,6 @@ class UsersController < ApplicationController
 
   def user_params
     params.require(:user).permit User::PERMITTED_PARAMS
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "users.logged_in_user.flash_danger"
-    redirect_to login_url
   end
 
   def correct_user

@@ -29,3 +29,10 @@ pagination:
   per_page: 15
 time:
   expired: 2
+validations:
+  post:
+    content_length: 140
+    content_type: /%w(image/jpeg image/gif image/png)/
+    max_file_size: 5
+    image_type: "image/jpeg,image/gif,image/png"
+    resize_limit: [500, 500]

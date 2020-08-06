@@ -1,4 +1,5 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   PERMITTED_PARAMS = %i(name email password password_validation).freeze
   RESET_PASSWORD_PARAMS = %i(password password_confirmation).freeze
 
@@ -79,6 +80,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.time.expired.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private

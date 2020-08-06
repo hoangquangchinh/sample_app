@@ -25,7 +25,7 @@ class PasswordResetsController < ApplicationController
       render :edit
     elsif @user.update user_params.merge reset_digest: nil
       log_in @user
-      flash[:success] =  t ".flash_reset_success"
+      flash[:success] = t ".flash_reset_success"
       redirect_to @user
     else
       render :edit

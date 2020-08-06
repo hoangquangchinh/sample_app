@@ -18,6 +18,7 @@ en:
       gravatar_change: "Change avatar"
       submit: "Save changes"
       update_failed: "Update profile failed"
+      microposts: "microposts"
     index:
       title: "All users"
     create:
@@ -58,6 +59,10 @@ en:
       sign_up: "Sign up now!"
       home_html: "This is the home page for the %{href} sample application."
       home_desc: "Ruby on Rails tutorial"
+      placeholder: "Compose new micropost...."
+      post: "Post"
+      profile: "View my profile"
+      microposts: "microposts"
     help:
       title: "Help"
       help_html: 
@@ -84,6 +89,7 @@ en:
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
   shared:
+    please_log_in: "Please log in."
     error_messages:
       alert: "The form contains"
       error: "error"
@@ -150,3 +156,17 @@ en:
       submit: "Update password"
       forbidden: "You are not authorized to do this action"
       expire: "This link has been expired !!"
+  microposts:
+    create:
+      flash_created: "Micropost created!"
+    micropost:
+      posted: "Posted"
+      ago: "ago"
+      delete: "Delete"
+      confirm: "Are you sure?"
+    destroy:
+      flash_destroyed: "Micropost deleted!"
+      flash_wrong_user: "Delete another user's micropost is not allowed!"
+    validate:
+      image_format: "must be a valid image format"
+      image_size: "should be less than %{size}MB"
