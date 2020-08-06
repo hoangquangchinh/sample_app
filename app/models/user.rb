@@ -12,6 +12,9 @@ class User < ApplicationRecord
 
   before_save :email.downcase
   has_secure_password
+  validates :password, presence: true,
+    length: {minimum: Settings.validate.user.password_minlength},
+    allow_nil: true
 
   def email_downcase
     email.downcase!

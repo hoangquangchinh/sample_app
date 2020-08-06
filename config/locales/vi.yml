@@ -1,13 +1,28 @@
 vi:
   users:
+    form:
+      sign_up: "Đăng ký"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+      user_not_found: "Không tìm thấy người dùng"
+    edit:
+      title: "Chỉnh sửa thông tin"
+      h1_title: "Cập nhật profile của bạn"
+      gravatar_change: "Đổi avatar"
+      submit: "Lưu thay đổi"
+      update_failed: "Cập nhật profile không thành công"
+    index:
+      title: "Danh sách người dùng"
     new:
       flash_success: "Chào mừng đến với Ứng dụng mẫu!"
-      name: "tên"
-      email: "email"
-      password: "mật khẩu"
-      confirmation: "xác nhận"
-      create: "Tạo tài khoản"
       sign_up: "Đăng ký"
+      save: "Lưu lai"
+      create: "Tạo tài khoản"
       desc: "Đây sẽ là trang đăng ký cho người dùng mới."
   layouts:
     footer:
@@ -75,3 +90,10 @@ vi:
       remember_me: "Nhớ phiên đăng nhập của tôi"
     create:
       flash_danger: "Mật khẩu hoặc email không hợp lệ."
+    update:
+      flash_success: "Hồ sơ đã được cập nhật!"
+    destroy:
+      flash_success: "Xóa người dùng thành công!"
+      not_deleted_msg: "Xóa người dùng không thành công"
+    logged_in_user:
+      flash_danger: "Vui lòng đăng nhập."

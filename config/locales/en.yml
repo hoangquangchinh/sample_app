@@ -1,13 +1,27 @@
 en:
   users:
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+    user:
+      delete: "delete"
+      confirm: "Are you sure?"
+      user_not_found: "User not found"
+    edit:
+      title: "Edit info"
+      h1_title: "Update your profile"
+      gravatar_change: "Change avatar"
+      submit: "Save changes"
+      update_failed: "Update profile failed"
+    index:
+      title: "All users"
     new:
       flash_success: "Welcome to the Sample App!"
-      name: "name"
-      email: "email"
-      password: "password"
-      confirmation: "confirmation"
-      create: "Create my account"
       sign_up: "Sign up"
+      save: "Save"
+      create: "Create my account"
       desc: "This will be a signup page for new users."
   layouts:
     footer:
@@ -76,3 +90,10 @@ en:
       remember_me: "Remember me"
     create:
       flash_danger: "Invalid email/password combination"
+    update:
+      flash_success: "Profile updated!"
+    destroy:
+      flash_success: "User deleted!"
+      not_deleted_msg: "Delete unsucessfully"
+    logged_in_user:
+      flash_danger: "Please log in."
