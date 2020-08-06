@@ -6,6 +6,8 @@ vi:
       email: "Email"
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
+    show:
+      warning_msg: "Người dùng không tồn tại"
     user:
       delete: "Xóa"
       confirm: "Bạn chắc chứ?"
@@ -18,6 +20,10 @@ vi:
       update_failed: "Cập nhật profile không thành công"
     index:
       title: "Danh sách người dùng"
+    create:
+      flash_activate: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
+      alert_mess_create: "Tài khoản chưa đưọc kích hoạt. Hãy kiểm tra hòm thư email của bạn."
+      flash_danger: "Mật khẩu hoặc email không hợp lệ."
     new:
       flash_success: "Chào mừng đến với Ứng dụng mẫu!"
       sign_up: "Đăng ký"
@@ -89,7 +95,10 @@ vi:
       new_user: "Người dùng mới?"
       remember_me: "Nhớ phiên đăng nhập của tôi"
     create:
+      alert_mess_create: "Tài khoản chưa đưọc kích hoạt. Hãy kiểm tra hòm thư email của bạn."
       flash_danger: "Mật khẩu hoặc email không hợp lệ."
+      warning_msg: "Kiểm tra email để kích hoạt tài khoản"
+      flash_activate: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
     update:
       flash_success: "Hồ sơ đã được cập nhật!"
     destroy:
@@ -97,3 +106,17 @@ vi:
       not_deleted_msg: "Xóa người dùng không thành công"
     logged_in_user:
       flash_danger: "Vui lòng đăng nhập."
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      greeting: "Hi"
+      detail: "Welcome to the Sample App! Click on the link below to activate your account"
+      link: "Active"
+  account_activations:
+    edit:
+      flash_activated: "Tài khoản của bạn đã được kích hoạt!"
+      flash_invalid_activation: "Link kích hoạt không hợp lệ!"
