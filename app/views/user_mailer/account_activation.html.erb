@@ -1,0 +1,2 @@
+<%= @user.name %></p>
+<%= link_to t(".Activate"), edit_account_activation_url(id: @user.activation_token, email: @user.email) %>

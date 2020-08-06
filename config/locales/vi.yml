@@ -89,7 +89,9 @@ vi:
       new_user: "Người dùng mới?"
       remember_me: "Nhớ phiên đăng nhập của tôi"
     create:
+      alert_mess_create: "Tài khoản chưa đưọc kích hoạt. Hãy kiểm tra hòm thư email của bạn."
       flash_danger: "Mật khẩu hoặc email không hợp lệ."
+      flash_activate: "Làm ơn kiểm tra email để kích hoạt tài khoản của bạn."
     update:
       flash_success: "Hồ sơ đã được cập nhật!"
     destroy:
@@ -97,3 +99,17 @@ vi:
       not_deleted_msg: "Xóa người dùng không thành công"
     logged_in_user:
       flash_danger: "Vui lòng đăng nhập."
+    user:
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Ứng dụng Mẫu"
+      greeting: "Xin chào"
+      welcome: |
+        Chào mừng đến với Ứng dụng Mẫu!
+        Nhấn vào link dưới đây để kích hoạt tài khoản của bạn:
+      activate: "Kích hoạt"
+    account_activations:
+      flash_activated: "Tài khoản của bạn đã được kích hoạt!"

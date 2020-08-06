@@ -89,7 +89,9 @@ en:
       new_user: "New user?"
       remember_me: "Remember me"
     create:
+      alert_mess_create: "Account not activated. Check your email for the activation link."
       flash_danger: "Invalid email/password combination"
+      flash_activate: "Please check your email to activate your account."
     update:
       flash_success: "Profile updated!"
     destroy:
@@ -97,3 +99,17 @@ en:
       not_deleted_msg: "Delete unsucessfully"
     logged_in_user:
       flash_danger: "Please log in."
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      greeting: "Hi"
+      welcome: |
+        Welcome to the Sample App!
+        Click on the link below to activate your account:
+      activate: "Activate"
+    account_activations:
+      flash_activated: "Account activated!"
