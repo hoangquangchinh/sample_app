@@ -30,6 +30,8 @@ pagination:
 time:
   expired: 2
 validations:
+  user:
+    size_ava: 30
   post:
     content_length: 140
     content_type: /%w(image/jpeg image/gif image/png)/
