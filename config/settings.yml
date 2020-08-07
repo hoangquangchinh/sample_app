@@ -8,9 +8,12 @@ link:
   rails: "https://rubyonrails.org/"
   michaelhartl: "https://www.michaelhartl.com/"
   gravatar: "https://secure.gravatar.com/avatar/"
+  gravatar_change: "https://gravatar.com/emails"
 image:
   rails:
     width: "200px"
+  avatar:
+    size: 50
 validate:
   user:
     name_maxlength: 50
@@ -19,3 +22,8 @@ validate:
     password_minlength: 6
 form:
   check_box: "1"
+helper:
+  user:
+    size: 80
+pagination:
+  per_page: 15
