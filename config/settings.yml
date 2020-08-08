@@ -27,3 +27,5 @@ helper:
     size: 80
 pagination:
   per_page: 15
+time:
+  expired: 2

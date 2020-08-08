@@ -95,6 +95,8 @@ en:
       sign_up: "Sign up now!"
       new_user: "New user?"
       remember_me: "Remember me"
+      forgot_password: "Forgot password?"
+      click_here: "Click here"
     create:
       alert_mess_create: "Account not activated. Check your email for the activation link."
       flash_danger: "Invalid email/password combination"
@@ -117,7 +119,34 @@ en:
       greeting: "Hi"
       detail: "Welcome to the Sample App! Click on the link below to activate your account"
       link: "Active"
+    password_reset:
+      subject: "Password reset"
+      click_below: "To reset your password click the link below:"
+      expired_time: "This link will expire in two hours."
+      if_not_you: |
+        If you did not request your password to be reset,
+        please ignore this email and your password will stay as it is.
+      reset_password: "Reset password"
   account_activations:
     edit:
       flash_activated: "Account activated!"
       flash_invalid_activation: "Invalid activation link!"
+  password_resets:
+    new:
+      title: "Password reset"
+      submit: "Submit"
+    create:
+      flash_reset_password: "Email sent with password reset instructions."
+      flash_email_not_found: "Email not found!"
+    update:
+      blank_password: "Password can't be blank!"
+      flash_reset_success: "Password has been reset!"
+      forbidden: "You are not authorized to do this action"
+      expire: "This link has been expired !!"
+    edit:
+      title: "Reset password"
+      password: "Password"
+      confirmation: "Password confirmation"
+      submit: "Update password"
+      forbidden: "You are not authorized to do this action"
+      expire: "This link has been expired !!"
