@@ -94,6 +94,8 @@ vi:
       sign_up: "Đăng ký ngay!"
       new_user: "Người dùng mới?"
       remember_me: "Nhớ phiên đăng nhập của tôi"
+      forgot_password: "Quên mật khẩu?"
+      click_here: "Nhấn vào đây"
     create:
       alert_mess_create: "Tài khoản chưa đưọc kích hoạt. Hãy kiểm tra hòm thư email của bạn."
       flash_danger: "Mật khẩu hoặc email không hợp lệ."
@@ -116,7 +118,34 @@ vi:
       greeting: "Hi"
       detail: "Welcome to the Sample App! Click on the link below to activate your account"
       link: "Active"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      click_below: "Nhấn vào link dưới đây để đặt lại mật khẩu:"
+      expired_time: "Link này sẽ hết hạn trong vòng 2 tiếng."
+      if_not_you: |
+        Nếu như bạn không yêu cầu thay đổi mật khẩu,
+        hãy bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+      reset_password: "Đặt lại mật khẩu"
   account_activations:
     edit:
       flash_activated: "Tài khoản của bạn đã được kích hoạt!"
       flash_invalid_activation: "Link kích hoạt không hợp lệ!"
+  password_resets:
+    new:
+      title: "Đặt lại mật khẩu"
+      submit: "Đặt lại"
+    create:
+      flash_reset_password: "Hướng dẫn thay đổi mật khẩu đã được gửi vào email của bạn."
+      flash_email_not_found: "Không tìm thấy email!"
+      forbidden: "Bạn không được phép thực hiện hành động này"
+    update:
+      blank_password: "Mật khẩu không được để trống!"
+      flash_reset_success: "Mật khẩu của bạn đã được đặt lại!"
+      expire: "Liên kết này đã hết hạn!!"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+      forbidden: "Bạn không được phép thực hiện hành động này"
+      expire: "Liên kết này đã hết hạn!!"
