@@ -67,7 +67,6 @@ class User < ApplicationRecord
     update activated: true, activated_at: Time.zone.now
   end
 
-<<<<<<< HEAD
   def create_reset_digest
     self.reset_token = User.new_token
     update reset_digest: User.digest(reset_token), reset_sent_at: Time.zone.now
@@ -81,8 +80,6 @@ class User < ApplicationRecord
     reset_sent_at < Settings.time.expired.hours.ago
   end
 
-=======
->>>>>>> master
   private
 
   def downcase_email
