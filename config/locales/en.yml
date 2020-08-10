@@ -1,10 +1,13 @@
 en:
   users:
     form:
+      sign_up: "Sign up"
       name: "Name"
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
+    show:
+      warning_msg: "User do no exist"
     user:
       delete: "delete"
       confirm: "Are you sure?"
@@ -17,6 +20,10 @@ en:
       update_failed: "Update profile failed"
     index:
       title: "All users"
+    create:
+      flash_activate: "Please check your email to activate your account."
+      alert_mess_create: "Account not activated. Check your email for the activation link."
+      flash_danger: "Invalid email/password combination"
     new:
       flash_success: "Welcome to the Sample App!"
       sign_up: "Sign up"
@@ -89,7 +96,10 @@ en:
       new_user: "New user?"
       remember_me: "Remember me"
     create:
+      alert_mess_create: "Account not activated. Check your email for the activation link."
       flash_danger: "Invalid email/password combination"
+      warning_msg: "Please check your email to activate your account."
+      flash_activate: "Please check your email to activate your account."
     update:
       flash_success: "Profile updated!"
     destroy:
@@ -97,3 +107,17 @@ en:
       not_deleted_msg: "Delete unsucessfully"
     logged_in_user:
       flash_danger: "Please log in."
+    user:
+      delete: "Delete"
+      confirm: "Are you sure?"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      greeting: "Hi"
+      detail: "Welcome to the Sample App! Click on the link below to activate your account"
+      link: "Active"
+  account_activations:
+    edit:
+      flash_activated: "Account activated!"
+      flash_invalid_activation: "Invalid activation link!"
