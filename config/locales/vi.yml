@@ -18,6 +18,7 @@ vi:
       gravatar_change: "Đổi avatar"
       submit: "Lưu thay đổi"
       update_failed: "Cập nhật profile không thành công"
+      microposts: "microposts"
     index:
       title: "Danh sách người dùng"
     create:
@@ -31,6 +32,9 @@ vi:
       create: "Tạo tài khoản"
       desc: "Đây sẽ là trang đăng ký cho người dùng mới."
   layouts:
+    micropost_form:
+      placeholder: "Viết bài đăng mới..."
+      submit: "Đăng bài"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
@@ -58,6 +62,10 @@ vi:
       sign_up: "Đăng ký ngay"
       home_html: "Đây là trang chủ của ứng dụng ví dụ về %{href}."
       home_desc: "Ruby on Rails"
+      placeholder: "Compose new micropost...."
+      post: "Post"
+      profile: "View my profile"
+      microposts: "microposts"
     help:
       title: "Trợ giúp"
       help_html:
@@ -83,6 +91,7 @@ vi:
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
   shared:
+    please_log_in: "Vui long dang nhap."
     error_messages:
       alert: "Biểu mẫu có chứa"
       error: "Lỗi"
@@ -149,3 +158,17 @@ vi:
       submit: "Cập nhật mật khẩu"
       forbidden: "Bạn không được phép thực hiện hành động này"
       expire: "Liên kết này đã hết hạn!!"
+  microposts:
+    create:
+      flash_created: "Đăng bài thành công!"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "Xóa"
+      confirm: "Bạn chắc chứ?"
+    destroy:
+      flash_destroyed: "Xóa bài đăng thành công!"
+      flash_wrong_user: "Không được phép xóa bài đăng của người dùng khác!"
+    validate:
+      image_format: "phải có định dạng hợp lệ"
+      image_size: "không được có độ lớn vượt quá %{size}MB"
