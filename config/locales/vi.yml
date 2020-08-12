@@ -1,5 +1,16 @@
 vi:
   users:
+    following:
+      following: "Đang theo dõi"
+    followers:
+      followers: "Người theo dõi"
+    follow:
+      btn_follow: "Theo dõi"
+    unfollow:
+      btn_unfollow: "Bỏ theo dõi"
+    show_follow:
+      micropost: "Microposts:"
+      link_profile: "Xem trang cá nhân"
     form:
       sign_up: "Đăng ký"
       name: "Tên"
@@ -91,6 +102,9 @@ vi:
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
   shared:
+    stats:
+      followers: "người theo dõi"
+      following: "đang theo dõi"
     please_log_in: "Vui long dang nhap."
     error_messages:
       alert: "Biểu mẫu có chứa"

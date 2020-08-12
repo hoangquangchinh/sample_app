@@ -1,5 +1,16 @@
 en:
   users:
+    following:
+      following: "Following"
+    followers:
+      followers: "Followers"
+    follow:
+      btn_follow: "Follow"
+    unfollow:
+      btn_unfollow: "Unfollow"
+    show_follow:
+      micropost: "Microposts:"
+      link_profile: "View my profile"
     form:
       sign_up: "Sign up"
       name: "Name"
@@ -89,6 +100,9 @@ en:
       screencast_desc: "screencast series"
       rails_desc: "Ruby on Rails"
   shared:
+    stats:
+      followers: "followers"
+      following: "following"
     please_log_in: "Please log in."
     error_messages:
       alert: "The form contains"

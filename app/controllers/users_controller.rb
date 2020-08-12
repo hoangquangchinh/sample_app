@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :find_user, except: %i(index new create)
-  before_action :logged_in_user, except: %i(create new show)
+  before_action :logged_in_user, except: :show
   before_action :correct_user, only: %i(edit update)
   before_action :admin_user, only: :destroy
 
@@ -65,13 +65,5 @@ class UsersController < ApplicationController
 
   def admin_user
     redirect_to root_url unless current_user.admin?
-  end
-
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "users.user_not_found"
-    redirect_to root_url
   end
 end
